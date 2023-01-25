@@ -1,3 +1,21 @@
-h1 {
-    color: blue;
+h2 {
+    font-size: 60px;
+    text-align: center;
+}
+
+.container {
+    max-width: 960px;
+    margin:  0 auto;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: wrap;
+    gap: 2%;
+}
+
+.flex-container > div{
+    border: 1px solid black;
+    padding: 20px;
+    width: calc(96%/3);
 }
